@@ -25,7 +25,7 @@ print('First p tage => soup.p.string:')
 print(soup.p.string)
 print('First a tag =>soup.a.string:')
 print(soup.a.string)
-print('Firt b tag => soup.b.string:')
+print('First b tag => soup.b.string:')
 print(soup.b.string)
 
 # Find all tags
