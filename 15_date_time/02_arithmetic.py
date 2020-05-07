@@ -1,0 +1,23 @@
+import datetime
+day1 = datetime.date(2020, 5, 15)
+print('day1:')
+print(day1)
+print('day1.ctime():')
+print(day1.ctime())
+day2 = datetime.date(2015, 5, 15)
+print('day2.ctime():')
+print(day2.ctime())
+print('day1-day2')
+print(day1-day2)
+date_today = datetime.date.today()
+print('date_today:')
+print(date_today)
+time_delta = datetime.timedelta(days=4)
+print("time_delta:")
+print(time_delta)
+before_four_day = date_today - time_delta
+print('before_four_day:')
+print(before_four_day)
+after_four_day = date_today + time_delta
+print('after_four_day:')
+print(after_four_day)
